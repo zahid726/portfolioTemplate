@@ -10,6 +10,12 @@
   height: auto;
   padding: 2%;
 }
+.bgImg{
+  background-image: url('./image/aboutus.jpg');
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
 nav{
   height: 10vh;
   background:rgb(6, 12, 31);
