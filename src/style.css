@@ -1,25 +1,25 @@
- body {
+ /* body {
     margin:0;
     padding:0;
     overflow-x:hidden;
     font-family: 'Roboto', sans-serif;
-}
-*{
+} */
+/* *{
     padding: 0px;
     margin:0px;
-}
+} */
 
 section { 
     background-color: white;
     /* border: solid black 1px; */
 }
 
-.nav { 
+/* .nav { 
     background-color: rgb(6, 12, 31);
     height: 13vh;
     color: White;
     font-size: 40px;
-}
+} */
 
 .top { 
     background-color: rgb(6, 12, 31);
@@ -54,7 +54,7 @@ li {
 h1 {
     font-size: 90px;
     margin: 0;
-}
+} 
 
 .form h1 {
 	text-align: center;
@@ -231,9 +231,9 @@ h1.form {
     color:coral;
 }
 
-.hamburger { 
+/* .hamburger { 
     display: none;
-}
+} */
 
 .hamburger:focus {
     outline: 0;
@@ -256,17 +256,17 @@ h1.form {
         display: none;
         background-color: rgb(8, 16, 43);
         margin: 0px;
-    }
+    } 
 
     ul.show {
         display:block;
     }
 
-    nav {
+    /* nav {
         display: flex;
         flex-direction: column-reverse;
         padding-bottom: 30px;
-    }
+    } */
 
     .logo {
         display: none;
@@ -333,5 +333,3 @@ h1.form {
     margin:0% 3%;
     }
     }
-
-    

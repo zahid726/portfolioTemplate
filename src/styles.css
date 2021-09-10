@@ -5,13 +5,20 @@
     list-style: none;
     font-family: 'Roboto', sans-serif;
 }
-.hero{
-    background-image: url('../src/image/aboutus.jpg');
+.herocv{
+    background-image: url('../src/image/cv.jpg');
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.herocv h1{
+   
 }
 body{
     background-color: #ffffff;

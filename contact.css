@@ -7,6 +7,12 @@
 	justify-content: center;
 	align-items: center;
 }
+.nav-links.open
+{
+  clip-path: circle(1000px at 90% -10%);
+  -webkit-clip-path: circle(1000px at 90% -10%);
+  pointer-events: all;
+}
 .bg h1{
 font-size: 50px;
 font-weight: bold;
@@ -25,7 +31,7 @@ font-weight: bold;
   text-align: center;
   width: 25% !important;
 }
-@media (max-width:900px){
+@media (max-width:1100px){
 	.icons{
 		width: 100%;
 		display: flex;
@@ -72,7 +78,7 @@ padding: 50px;}
 .contactform .row .img{
   width: 35%;
 }
-@media (max-width:800px){
+@media (max-width:950px){
 	.contactform .row{
 		display: flex;
 		flex-direction: column;
