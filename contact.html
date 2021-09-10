@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="src/nav.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="src/style.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <title>Contact</title>
+        <meta charset="utf-8">
+     </head>
+    <body>
+      <nav class="nav">
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="cv.html">My CV</a></li>
+            <li><a href="contact.html">Contact Me</a></li> 
+        </ul>
+        </nav>
+
+        <!-- NavBar Ends -->
+            <!-- Body Section -->
+
+
+
+      <!-- contact form -->
+      <section class="contactUs">
+        <div class="bg">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="container">
+          <div class="row ">
+            
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="wrapper">
+                <div class="icons">
+                  <div class="col-md">              
+                    <div class="item">
+                   <span id="ico" class="fa fa-map-marker"></span>
+                      <div class="text">
+                        <p><span id="heading">Address:</span> 198 West 21th Street,<br> Suite 721 New York  NY 10016</p>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="col-md">
+                    <div class="item">
+                      <span id="ico" class="fa fa-phone"></span>
+                         <div class="text">
+                           <p><span id="heading">Phone:</span>+92162627643</p>
+                         </div>
+                       </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="item">
+                      <span id="ico" class="fa fa-phone"></span>
+                         <div class="text">
+                           <p><span id="heading">Email:</span>yourEmail@gmail.com</p>
+                         </div>
+                       </div>
+                    </div>
+                  </div>
+               
+                </div>
+                <!--  -->
+                <div class="contactform">
+                    <div class="row">
+                      <div class="form">
+                       
+                        <div class="formContainer">  
+  <form id="contact" action="" method="post">
+    <h3>Quick Contact</h3>
+    <h4>Contact us today, and get reply with in 24 hours!</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+ 
+  
+</div>
+                      </div>
+                      <div class="img">
+                        <img src="src/image/hero.jpeg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                </div>
+                <!-- <div class="row no-gutters">
+                  <div class="col-md-7">
+                    <div class="contact-wrap w-100 p-md-5 p-4">
+                      <h3 class="mb-4">Contact Us</h3>
+                      <div id="form-message-warning" class="mb-4"></div> 
+                      <div id="form-message-success" class="mb-4">
+                        Your message was sent, thank you!
+                      </div>
+                      <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label class="label" for="name">Full Name</label>
+                              <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                            </div>
+                          </div>
+                          <div class="col-md-6"> 
+                            <div class="form-group">
+                              <label class="label" for="email">Email Address</label>
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label class="label" for="subject">Subject</label>
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label class="label" for="#">Message</label>
+                              <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input type="submit" value="Send Message" class="btn btn-primary">
+                              <div class="submitting"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-5 d-flex align-items-stretch">
+                    <div class="info-wrap w-100 p-5 img" style="background-image: url(src/image/hero.jpg);">
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <script src="src/nav.js"></script>
+    </body>
+</html>
