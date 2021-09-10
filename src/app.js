@@ -1,26 +1,18 @@
-// const hamburgerButton = document.getElementById('hamburger')
-// const navList = document.getElementById('navList')
+// let voice= document.querySelector('#voiceIcon');
 
-// function toggleButton() {
-//     navList.classList.toggle('show')
-// }
 
-// hamburgerButton.addEventListener('click', toggleButton)
 
-// const hamburger = document.querySelector(".hamburger");
-//     const navLinks = document.querySelector(".nav-links");
-//     const links = document.querySelectorAll(".nav-links li");
+// var audio = new Audio('voice.mp3');
 
-//     hamburger.addEventListener("click", () => {
-//     navLinks.classList.toggle("open");
-//     links.forEach(link => {
-//         link.classList.toggle("fade");
-//     });
-//     });
-const navToggle = document.querySelector(".nav-toggle");
-const links = document.querySelector("body");
+// // document.onclick = function() {
+// //   audio.play();
+// // }
 
-navToggle.addEventListener("click", function () {
-  links.classList.toggle("nav-links-open");
+// voice.addEventListener('click',function(){
+//     audio.play();
+// })
 
-});
+function play() {
+    var audio = new Audio('src/voice.mp3');
+    audio.play();
+  }

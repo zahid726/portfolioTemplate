@@ -32,7 +32,11 @@ nav {
     display: flex; 
     justify-content: space-between;
 }
-
+#voiceIcon{
+    color: rgb(128, 68, 0);
+    font-size: 35px !important;
+    /* border-radius: 50% !important;  */
+}
 ul { 
     display: flex; 
     list-style-type: none;
