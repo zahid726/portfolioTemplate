@@ -325,15 +325,16 @@ h1.form {
     
     @media (max-width:720px) {
     .footerEnd{
-    text-align:left;
+    /* text-align:left; */
     padding:5%;
     }
     .footerEnd .row ul li {
     display:block;
     margin:10px 0px;
-    text-align:left;
+    /* text-align:left; */
     }
     .footerEnd .row a i {
     margin:0% 3%;
     }
     }
+

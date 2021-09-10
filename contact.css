@@ -81,13 +81,15 @@ padding: 50px;}
 @media (max-width:950px){
 	.contactform .row{
 		display: flex;
+		width: 100%;
 		flex-direction: column;
+		padding: 0px;
 	}
 	.contactform .row .img{
 		width: 95%;
 	  }
 	  .contactform .row .form{
-		width: 95%;
+		width: 100%;
 	  }
 
 }
