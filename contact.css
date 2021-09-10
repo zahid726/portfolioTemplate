@@ -91,6 +91,9 @@ padding: 50px;}
 	  .contactform .row .form{
 		width: 100%;
 	  }
+	  #contact{
+		  padding: 0px;
+	  }
 
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
