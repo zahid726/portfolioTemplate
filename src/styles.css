@@ -248,17 +248,17 @@ body{
 }
 
 /*Media Querries*/
-@media screen and (max-width:823px){
+@media  (max-width:823px){
     .right-title::after{
         width: 40%;
     }
 }
-@media screen and (max-width:681px){
+@media (max-width:681px){
     .right-title::after{
         width: 30%;
     }
 }
-@media screen and (max-width:780px){
+@media  (max-width:780px){
     .timeline{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -271,7 +271,7 @@ body{
         grid-column: span 4;
     }
 }
-@media screen and (max-width:1200px){
+@media (max-width:1200px){
     .main-content{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -279,12 +279,12 @@ body{
         width: 40%;
     }
 }
-@media screen and (max-width:700px){
+@media  (max-width:700px){
     .profile img{
         width: 60%;
     }
 }
-@media screen and (max-width:390px){
+@media  (max-width:390px){
     .name{
         font-size: 1.5rem;
     }
