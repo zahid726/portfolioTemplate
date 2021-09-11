@@ -177,7 +177,19 @@ margin: 20px;
       display: none;
   }
 }
-
+@media  (max-width: 608px) {
+   #about{
+       display: flex;
+       flex-direction: column;
+       margin-top: 10px;
+   }
+   .headshot-container{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+  }
+  
 
 .project-image { 
     margin-top: 25px;
